@@ -1,3 +1,6 @@
+/**
+ * https://blog.csdn.net/weixin_58330858/article/details/121698619
+ */
 object GenericClass {
 
   def main(args: Array[String]): Unit = {
