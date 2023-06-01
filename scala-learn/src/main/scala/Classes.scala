@@ -36,6 +36,7 @@ object Classes {
       def x = _x
 
       // setter
+      // 在getter方法的后面加上 _=
       def x_=(newX: Int): Unit = {
         if (newX < bound) {
           _x = newX
