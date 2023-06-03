@@ -1,5 +1,5 @@
 /**
- * 类型下界：B >: A 表示类型参数 B 或抽象类型 B 是类型 A 的超类型
+ * 类型下界: B >: A 表示类型参数 B 或抽象类型 B 是类型 A 的超类型
  */
 object LowerTypeBounds {
   def main(args: Array[String]): Unit = {

@@ -13,7 +13,7 @@ object ExtractorObj {
     }
   }
 
-  // 类似构造器：接收参数创建一个实例对象
+  // 类似构造器: 接收参数创建一个实例对象
   def apply(name: String) = s"$name==${Random.nextLong()}"
 
   // 接收一个实例对象返回最初创建时提供的参数

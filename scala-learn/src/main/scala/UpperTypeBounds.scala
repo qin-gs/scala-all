@@ -1,5 +1,5 @@
 /**
- * 类型上界：T <: A 这样声明的类型上界表示类型变量T应该是类型A的子类
+ * 类型上界: T <: A 这样声明的类型上界表示类型变量T应该是类型A的子类
  */
 object UpperTypeBounds {
   def main(args: Array[String]): Unit = {

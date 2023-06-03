@@ -1,5 +1,5 @@
 /**
- * 型变：协变，逆变，不变
+ * 型变: 协变，逆变，不变
  * class Foo[+A] // A covariant class 如果 A 是 B 的子类型，那么 List[A] 就是 List[B] 的子类型
  * class Bar[-A] // A contravariant class 如果 A 是 B 的子类型，那么 Writer[B] 是 Writer[A] 的子类型
  * class Baz[A]  // An invariant class
