@@ -20,7 +20,15 @@ object Depend {
     println(groupRdd.dependencies)
     println("--------------------------------")
 
+    // rdd 中存在 shuffle 操作时会 Stage 自动增加一个，最后有一个
     groupRdd.collect().foreach(println)
+
+    // 1 -> n 的关系
+    // Application, Job, Stage, Task
+    // Application: 初始化一个 SparkApplication 生成一个 Application
+    // Job: 一个 Action 算子生成一个 Job
+    // Stage: 宽依赖的个数+1 (shuffle + 1)
+    // Task: 一个 Stage 阶段中，最后一个 rdd 分区的个数就是 task 的个数
 
   }
 }
