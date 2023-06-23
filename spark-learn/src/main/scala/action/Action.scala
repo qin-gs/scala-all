@@ -1,10 +1,10 @@
 import org.apache.spark.{SparkConf, SparkContext}
 
-package object rdd {
+package object action {
 
   def getSc(): SparkContext = {
     val conf = new SparkConf().setMaster("local[*]")
-      .setAppName("rdd")
+      .setAppName("action")
     new SparkContext(conf)
   }
 }
