@@ -12,6 +12,7 @@
         <module>scala-learn</module>
         <module>spark-learn</module>
         <module>spark-sql</module>
+        <module>spark-streaming</module>
     </modules>
 
     <properties>
